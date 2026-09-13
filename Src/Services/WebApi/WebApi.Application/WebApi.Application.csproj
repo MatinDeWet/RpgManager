@@ -13,6 +13,7 @@
     <ItemGroup>
       <PackageReference Include="MatinDeWet.Pagination" />
       <PackageReference Include="MatinDeWet.Searchable.PostgreSQL" />
+      <PackageReference Include="Npgsql.EntityFrameworkCore.PostgreSQL" />
     </ItemGroup>
 
     <ItemGroup>
