@@ -5,6 +5,7 @@
         <PackageReference Include="Hangfire.NetCore" />
         <PackageReference Include="Hangfire.PostgreSql" />
         <!-- Force the patched Newtonsoft.Json over Hangfire.Core's vulnerable transitive 11.0.1 (NU1903). -->
+        <PackageReference Include="Microsoft.Extensions.Hosting.Abstractions" VersionOverride="3.1.32" />
         <PackageReference Include="Newtonsoft.Json" />
     </ItemGroup>
 
